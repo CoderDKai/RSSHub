@@ -34691,7 +34691,8 @@ export default {
       "/:type?/:category?": {
         "path": "/:type?/:category?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/dx2025",
         "parameters": {
@@ -47930,8 +47931,7 @@ export default {
       "/npc/:caty": {
         "path": "/npc/:caty",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/npc/c183",
         "parameters": {
